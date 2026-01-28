@@ -1,4 +1,4 @@
-def test(some_tuple):
+def test(some_tuple: tuple) -> list:
     some_list=[]
     for elem in some_tuple:
         some_list.append(elem)
